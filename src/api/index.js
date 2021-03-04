@@ -15,6 +15,12 @@ export function request(config) {
   })
   // 2.2响应拦截器
   instance.interceptors.response.use(res => {
+    response => {
+      const res = response.data;
+      if(res.code !==200 ) {
+        this.$message.error('登录失败')
+      }
+    }
     return res.data
   }, err => {
     console.log(err);
@@ -23,3 +29,4 @@ export function request(config) {
   // 3.发送真正的网络请求 
   return instance(config)
 }
+
