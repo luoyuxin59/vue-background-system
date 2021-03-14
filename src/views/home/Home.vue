@@ -1,34 +1,29 @@
 <template>
-  <div class="home">
-    <el-container>
-      <el-aside width="200px">
-        <Title></Title>
-        <nav-menu></nav-menu>
-      </el-aside>
-      <el-main>
-
-      </el-main>
-    </el-container>
+  <div div class="home">
+    <Row-List></Row-List> 
   </div>
 </template>
 
 <script>
-import NavMenu from './components/NavMenu'
-import Title from './components/Title'
-
+import RowList from './component/RowList'
 export default {
-  name: "Home",
+  name: '',
   data() {
-    return {};
+    return {
+    };
   },
   components: {
-    NavMenu,
-    Title
+    RowList,
+    
   },
-
+  methods: {},
 };
 </script>
 
-<style lang="scss" scope>
+<style lang="scss" scoped>
+.home {
+  padding: 20px;
+  background-color: #f0f2f5;
 
+}
 </style>

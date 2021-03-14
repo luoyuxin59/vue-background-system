@@ -1,0 +1,51 @@
+{
+  "id": "2404082",
+  "name": "background-system",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "979234",
+      "name": "钱袋",
+      "font_class": "qiandai",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "3905152",
+      "name": "钱",
+      "font_class": "nb-",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "1330577",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e73e",
+      "unicode_decimal": 59198
+    },
+    {
+      "icon_id": "5427697",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "7697865",
+      "name": "中国",
+      "font_class": "zhongguo",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "12310092",
+      "name": "logo_github",
+      "font_class": "logo_github",
+      "unicode": "e85a",
+      "unicode_decimal": 59482
+    }
+  ]
+}
